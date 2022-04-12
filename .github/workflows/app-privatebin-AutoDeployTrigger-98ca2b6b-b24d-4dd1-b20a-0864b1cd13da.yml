@@ -6,11 +6,11 @@ on:
   push:
     branches: 
       [ master ]
-    paths:
-    - './**'
+    #paths:
+    #- './**'
 
   # Allow mannually trigger 
-  workflow_dispatch:      
+  #workflow_dispatch:      
 
 jobs:
   build:
