@@ -81,6 +81,7 @@ RUN \
     && apk del --no-cache gnupg git ${ALPINE_COMPOSER_PACKAGES}
 
 COPY etc/ /etc/
+RUN echo "TEST"
 
 WORKDIR /var/www
 # user nobody, group www-data
